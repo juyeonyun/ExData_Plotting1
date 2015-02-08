@@ -1,6 +1,6 @@
 # Load dataset into R
 
-setwd("/Users/juyeon/Documents/Study/Coursera/Exploratory Data Analysis/Assignment)
+setwd("/Users/juyeon/Documents/Study/Coursera/Exploratory Data Analysis/Assignment")
 
 filename <- "household_power_consumption.txt"
 
