@@ -1,9 +1,8 @@
-# Load dataset into R
+# load dataset into R
 
 setwd("/Users/juyeon/Documents/Study/Coursera/Exploratory Data Analysis/Assignment")
 
 filename <- "household_power_consumption.txt"
-
 df <- read.table(filename, header=TRUE, sep=";", na.strings="?")
 
 # subset the data only from 2/1/2007 and 2/2/2007
