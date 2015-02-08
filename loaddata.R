@@ -1,5 +1,7 @@
 # Load dataset into R
 
+setwd("/Users/juyeon/Documents/Study/Coursera/Exploratory Data Analysis/Assignment)
+
 filename <- "household_power_consumption.txt"
 
 df <- read.table(filename, header=TRUE, sep=";", na.strings="?")
