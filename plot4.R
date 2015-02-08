@@ -26,4 +26,7 @@ plot(df_sub$Timestamp, df_sub$Global_reactive_power, type="l",
      ylab = "Global_reactive_power")
 
 dev.copy(png, file="plot4.png", width=480, height=480)
+<<<<<<< HEAD
 dev.off()
+=======
+>>>>>>> ed7a414c080d490f637026fd76ce94b7905729e9
